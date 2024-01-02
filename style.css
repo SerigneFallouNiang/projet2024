@@ -8,7 +8,7 @@
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #ce0033;
     font-weight: 900;
     margin-bottom: 20px;
@@ -16,6 +16,7 @@ h2 {
 
 body {
     scroll-behavior: smooth;
+    background: #fefefe;
 }
 
 #main {
@@ -75,7 +76,7 @@ body {
     width: 100%;
     height: 70vh;
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 #main .alumni-gauche {
@@ -125,4 +126,58 @@ body {
     border-bottom-right-radius: 25px;
     background: #ce0033;
     box-shadow: 0px 5px 5px gray;
+}
+
+/* style css section les petites histoire */
+
+.témoignages {
+    width: 100%;
+    padding: 50px;
+    height: 90vh;
+}
+
+.témoignages .carte-temoignages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.témoignages .carte-temoignages .carte {
+    width: 490px;
+    height: 520px;
+    box-shadow: 0px 0px 5px lightgray;
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+
+.carte-temoignages .carte i {
+    font-size: 3.5rem;
+    color: #ce0033;
+    opacity: 0.3;
+    padding-bottom: 5px;
+}
+
+.carte-temoignages .carte p {
+    font-size: 25px;
+    line-height: 2rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.carte-temoignages .carte .carte-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte .carte-info img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carte .carte-info .carte-txt h3 {
+    font-size: 2.5rem;
+    opacity: 0.7;
 }
