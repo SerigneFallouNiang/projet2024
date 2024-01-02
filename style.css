@@ -33,13 +33,14 @@ body {
     width: 130px;
     border: 2px solid black;
     border-radius: 4px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #main .equipe-pedago .video {
     width: 85%;
     height: 85%;
     margin: auto;
+    position: relative;
 }
 
 #main .equipe-pedago .video .video-equipe-pedago {
@@ -48,4 +49,21 @@ body {
     border-radius: 5px;
     border: 5px solid #fff;
     box-shadow: 2px 0px 15px 8px lightgray;
+}
+
+.equipe-pedago .video .ettiquete {
+    width: 220px;
+    position: absolute;
+    top: 8%;
+    left: -1.5%;
+}
+
+.equipe-pedago .video .ettiquete p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 12px 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #ce0033;
 }
