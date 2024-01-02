@@ -1,0 +1,81 @@
+.color-red{
+    color: #ce0033;
+}
+.logo img{
+width: 100px;
+height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white ;
+    align-items: center;
+    margin-right: 15px;
+}
+.header ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+.contact{
+    border-radius: 15px;
+    background-color: #ce0033;
+    color: white;
+    border: #ce0033;
+}
+/*image-main*/
+.main-image{
+ background-image: url(images/26.png) ;
+ height: 600px;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color: rgba(0, 0, 0, 1); 
+}
+
+.font-size{
+    font-size: 30px;
+    
+    
+}
+.presentation{
+    padding: 50px;
+    color: white;
+    width: 400px;
+}
+.contact1{
+  
+    border-radius: 15px;
+    background-color: #ce0033;
+    color: white;
+    border: #ce0033;
+    height: 30px;
+   
+}
+/*section 2*/
+
+.simplon{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    padding-top: 50px;
+    align-items: center;
+    line-height: 2em;
+    background-color: whitesmoke;
+}
+.article{
+    width: 100%;
+    height: 600px;
+    padding-right: 10px;
+}
+.article img{
+    width: 400px;
+    height: 500px;
+    border-radius: 22px;
+}
+.nouvelles{
+    color: #ce0033;
+    font-size: 50px;
+    text-align: center;
+}
