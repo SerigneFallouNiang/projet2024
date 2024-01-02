@@ -79,3 +79,35 @@ height: 50px;
     font-size: 50px;
     text-align: center;
 }
+/*section activités*/
+.cadreActivité{
+    padding-top: 200px;
+    width: 75%;
+    margin: auto;
+}
+.activité{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+  
+    margin: 0;
+    
+}
+
+.activité img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+.petit{
+    font-size: 10px;
+}
+.active{
+    color: #ce0033;
+    font-size: 30px;
+}
