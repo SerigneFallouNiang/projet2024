@@ -7,6 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 3rem;
+    color: #ce0033;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
 body {
     scroll-behavior: smooth;
 }
@@ -20,16 +27,10 @@ body {
 #main .equipe-pedago {
     width: 100%;
     height: 90vh;
+    margin-bottom: 150px;
 }
 
-#main .equipe-pedago h2 {
-    font-size: 3rem;
-    color: #ce0033;
-    font-weight: 900;
-    margin-bottom: 20px;
-}
-
-#main .equipe-pedago hr {
+#main hr {
     width: 130px;
     border: 2px solid black;
     border-radius: 4px;
@@ -66,4 +67,62 @@ body {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background: #ce0033;
+}
+
+/**** section alumni style ****/
+
+#main .alumni {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+#main .alumni-gauche {
+    flex-basis: 45%;
+}
+
+#main .alumni-gauche p {
+    font-size: 1.6rem;
+    background: #f9f8f8;
+    padding: 5rem;
+    line-height: 45px;
+    margin-top: 150px;
+}
+
+#main .alumni-droite {
+    flex-basis: 47%;
+    box-shadow: 0px 5px 10px gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+#main .alumni-droite p {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2.4rem;
+}
+
+#main .alumni-droite iframe {
+    width: 100%;
+    height: 65%;
+}
+
+#main .alumni-droite .ettiquete {
+    width: 220px;
+    position: absolute;
+    top: 9%;
+    left: -3%;
+}
+
+#main .alumni-droite .ettiquete p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 12px 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #ce0033;
+    box-shadow: 0px 5px 5px gray;
 }
