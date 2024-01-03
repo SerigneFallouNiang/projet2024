@@ -25,23 +25,26 @@ height: 50px;
 }
 /*image-main*/
 .main-image{
- background-image: url(images/26.png) ;
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/26.png);
  height: 600px;
  width: 100%;
  background-size: cover;
  background-repeat: no-repeat;
- background-color: rgba(0, 0, 0, 1); 
+ 
+ f
 }
 
 .font-size{
     font-size: 30px;
-    
+    opacity: 1;
+    color: white; 
     
 }
 .presentation{
     padding: 50px;
     color: white;
     width: 400px;
+    color:rgba(255, 255, 255, 0,1)
 }
 .contact1{
   
@@ -53,6 +56,10 @@ height: 50px;
    
 }
 /*section 2*/
+.cadreSimplon{
+    width: 100%;
+    background-color: whitesmoke;
+}
 
 .simplon{
     display: flex;
@@ -112,6 +119,54 @@ height: 50px;
     font-size: 30px;
 }
 .evenement{
-    margin-top: 100px;
+    padding-top: 200px;
+    padding-left: 400px;
     margin-left: 50px;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    float: center;
+}
+.caseEvenement{
+    display: flex;
+    background-color: #ce0033;
+    align-items: center;
+    width: 400px;
+    color: white;
+    border-radius: 5px;
+    height: 100px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.Decouverte{
+    float: right;
+    margin-right: 500px;
+    color: #ce0033;
+    font-size: 20px;
+}
+.ajout{
+    color: #ce0033;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.venir{
+    color: #ce0033;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.next{
+    font-size: 10px;
+}
+.bande{
+    width: 20px;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    background-color: #ce0033;
+    position: relative;
+    top: 20px;
+    left: 150px;
 }
