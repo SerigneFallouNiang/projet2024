@@ -587,8 +587,8 @@ label {
 
 .temoignage {
     width: 80%;
-    height: 100dvh;
-    margin: auto;
+    height: 100vh;
+    margin: 0 auto;
     border: 1px solid red;
 }
 
@@ -599,6 +599,42 @@ label {
     font-weight: bold;
 }
 
+.temoignages-conteneur {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
 .temoignage .temoignage-box {
-    width: 50%;
+    width: 45%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.temoignage .temoignage-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.temoignage .temoignage-box H3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.temoignage .temoignage-box i {
+    color: #ce0033;
+    font-size: 1.2rem;
+}
+
+.temoignage .temoignage-box p {
+    font-size: 1.4rem;
+    opacity: 0.6;
+    line-height: 1.8rem;
 }
