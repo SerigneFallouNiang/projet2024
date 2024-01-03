@@ -130,3 +130,31 @@ margin-bottom: 15px;
 .active h3{
     color: #ce0033;
 }
+.card-pliers{
+   width: 300px;
+   background: white;
+   box-shadow: #ce0033 0px 5px;
+  
+   
+}
+.cadre-pliers{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 800px;
+    background-color: wheat;
+    
+
+}
+ h3{
+    color: #ce0033;
+}
+.image-pliers img{
+    border-radius: 15px;
+    width: 500px;
+    height: 800px;
+}
+.pliers{ 
+    display: flex;
+    margin: auto;
+}
