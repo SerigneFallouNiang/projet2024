@@ -25,13 +25,15 @@ height: 50px;
 }
 /*image-main*/
 .main-image{
- background-image: url(images/26.png) ;
- height: 600px;
- width: 100%;
- background-size: cover;
- background-repeat: no-repeat;
- background-color: rgba(0, 0, 0, 1); 
-}
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/26.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+   }
+
 .presentation{
     text-align: center;
     font-size: 100px;
