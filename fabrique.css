@@ -142,7 +142,7 @@ margin-bottom: 15px;
     gap: 50px;
     flex-wrap: wrap;
     width: 800px;
-    background-color: wheat;
+    background-color: whitesmoke;
     
 
 }
@@ -157,4 +157,8 @@ margin-bottom: 15px;
 .pliers{ 
     display: flex;
     margin: auto;
+}
+.card-pliers img{
+    width: 50px;
+    height: 50px;
 }
