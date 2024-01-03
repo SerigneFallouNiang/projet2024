@@ -58,10 +58,11 @@ body {
 /* recrutement bottom offre en ccours */
 
 .recructement-bottom {
-    width: 90%;
+    width: 80%;
     margin: auto;
     height: 65vh;
     display: flex;
+    gap: 10%;
 }
 
 .offre-en-cours {
@@ -166,4 +167,28 @@ body {
     align-self: flex-end;
     color: #000;
     margin-top: 1rem;
+}
+
+/* Formaulaire */
+
+.formulaire {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire .inputs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.inputs input {
+    flex-basis: 48%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 1px solid ;
 }
