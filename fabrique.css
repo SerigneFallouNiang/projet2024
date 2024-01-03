@@ -582,3 +582,23 @@ label {
     font-size: 1.3rem;
     opacity: 0.5;
 }
+
+/* temoignage */
+
+.temoignage {
+    width: 80%;
+    height: 100dvh;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.temoignage h2 {
+    color: #ce0033;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.temoignage .temoignage-box {
+    width: 50%;
+}
