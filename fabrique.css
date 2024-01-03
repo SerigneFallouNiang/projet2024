@@ -116,3 +116,17 @@ margin-bottom: 15px;
     top: -320px;
     left: 65.4%
 }
+.pedagogie{
+    display: flex;
+    gap: 40px;
+    margin: 200px;
+    
+}
+.active{
+    width: 80%;
+    align-items: center;
+    height: 500px;
+}
+.active h3{
+    color: #ce0033;
+}
