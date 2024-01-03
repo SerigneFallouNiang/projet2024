@@ -10,11 +10,19 @@ height: 50px;
     justify-content: space-between;
     background-color:white ;
     align-items: center;
+<<<<<<< HEAD
+=======
+    margin-right: 15px;
+>>>>>>> fallou
 }
 .header ul li {
     list-style-type: none;
     display: inline-block;
+<<<<<<< HEAD
     margin-right: 30px;
+=======
+
+>>>>>>> fallou
 }
 .contact{
     border-radius: 15px;
@@ -37,6 +45,7 @@ height: 50px;
     text-align: center;
     font-size: 100px;
     color: white;
+<<<<<<< HEAD
     align-items: center;
     background-color: rgba(0,0,0,0.2);
     position: absolute;
@@ -118,3 +127,6 @@ margin-bottom: 15px;
     left: 65.4%
 }
 
+=======
+}
+>>>>>>> fallou
