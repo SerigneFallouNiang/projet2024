@@ -14,6 +14,9 @@ body {
 .recrutement {
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .recrutement h2 {
@@ -50,4 +53,117 @@ body {
 .recrutement .recrutement-top-txt p {
     font-size: 1.2rem;
     line-height: 2.2rem;
+}
+
+/* recrutement bottom offre en ccours */
+
+.recructement-bottom {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    display: flex;
+}
+
+.offre-en-cours {
+    background: #f9f4f4;
+    flex-basis: 38%;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.offre-en-cours h3 {
+    color: #ce0033;
+    font-size: 1.9rem;
+    padding-bottom: .6rem;
+}
+
+.offre-en-cours hr {
+    border: 1px solid #ce0033;
+    opacity: 0.4;
+}
+
+.offre-en-cours .formateur-referent {
+    padding: 0.5rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.offre-en-cours .formateur-referent h4 {
+    font-size: 1.4rem;
+    margin-bottom: 2.6rem;
+}
+
+.offre-en-cours .formateur-referent span {
+    color: #ce0033;
+    font-size: 1.2rem;
+}
+
+.offre-en-cours .formateur-referent p {
+    font-size: 1.3rem;
+}
+
+.referent-carte {
+    width: 170px;
+    height: 170px;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 20px;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+}
+
+.referent-carte ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.referent-carte li {
+    font-size: 1.2rem;
+}
+
+.offre-en-cours input {
+    width: 200px;
+    color: #fff;
+    font-size: 1rem;
+    background: #ce0033;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0rem;
+    align-self: center;
+    cursor: pointer;
+}
+
+.ajout-formateur {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.ajout-formateur h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.ajout-formateur i {
+    color: #ce0033;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.offre-en-cours a {
+    align-self: flex-end;
+    color: #000;
+    margin-top: 1rem;
 }
