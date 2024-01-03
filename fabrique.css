@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #fefefe;
+}
+
+.recrutement {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.recrutement h2 {
+    font-size: 2.7rem;
+    color: #ce0033;
+    font-weight: bold;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+
+.recrutement .recrutement-top {
+    width: 90%;
+    height: 35vh;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+}
+
+.recrutement-top img {
+    width: 47%;
+    object-fit: cover;
+}
+
+.recrutement .recrutement-top-txt {
+    width: 40%;
+}
+
+.recrutement .recrutement-top-txt h3 {
+    font-size: 1.5rem;
+    color: #ce0033;
+    margin: 20px 0px;
+}
+
+.recrutement .recrutement-top-txt p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
