@@ -1,7 +1,7 @@
 /*  debut de la partie valeur*/ 
 .nos-valeurs{
 text-align: center;
-color: rgb(221, 64, 64);
+color: #CE0033;
 font-size: 4rem;
 }
 .cont-val{padding: 3rem;
@@ -15,7 +15,7 @@ font-size: 4rem;
 
 
 .titre-block-valeurs1{
-    color: rgb(221, 64, 64);
+    color: #CE0033;
     font-size: 3rem;
 }
 .text-block-valeurs1{
@@ -27,7 +27,7 @@ font-size: 4rem;
     height: 3rem;
     width: 8rem;
     border-radius: 1.5rem;
-    background-color: rgb(221, 64, 64);
+    background-color: #CE0033;
     color: white;
     font-size: 1.2rem;
     border: none;
@@ -62,21 +62,21 @@ font-size: 4rem;
     background-color: rgb(254, 162, 162);
     height: 4rem;
     width: 4rem;
-    border-radius: 50%;color:
-     rgb(221, 64, 64);
+    border-radius: 50%;
+    color:#CE0033;
     margin: 1.5rem;
 }
 /*fin de de la partie valeur*/
 /*la partie des chiffres*/
 .chiffres{
     text-align: center;
-color: rgb(221, 64, 64);
+color: #CE0033;
 font-size: 4rem;
 }
 .cont-chiffres{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(221, 64, 64);
+    background-color: #CE0033;
     padding:3rem;
     text-align: center;
     color: white;
@@ -87,9 +87,10 @@ font-size: 4rem;
     font-weight: bold;
 }
 /*fin de la partie des chiffres*/
+/* Debut de la partie de l'equipe */
 .Equipe{
     text-align: center;
-    color: rgb(221, 64, 64);
+    color: #CE0033;
     font-size: 4rem;
 }
 .text-equipe{
@@ -117,12 +118,6 @@ font-size: 4rem;
     color: #CE0033;
 }
 
-
-
-
-
-
-
 .photo-coach-equipe{
     width: 10rem;
     width: 10rem;
@@ -132,4 +127,41 @@ font-size: 4rem;
 .icons-equipe-one{
     width: 2rem;
     height: 2rem;
+}
+/*Fin de la partie de l'equipe*/
+/* Debut de la partie ici la fabrique */
+.cont-fabrique{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+.fabrique{
+    text-align: center;
+    color: #CE0033;
+    font-size: 4rem;
+}
+.photo-fabrique{
+    height: 10rem;
+    width: auto;
+}
+/* fin de la partie fabrique */
+/*la partie le voyage au coeur de la fabrique */
+.cont-voyage-fab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 9rem 0;
+}
+.titre-voyage-fab{
+    color: #CE0033;
+    font-size: 3rem;
+}
+.text-voyage-fab{
+  font-size: 1.5rem;
+}
+
+
+.photo-voyage-fab{
+    width: 40rem;
+    height: auto;
 }
