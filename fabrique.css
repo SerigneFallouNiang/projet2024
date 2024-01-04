@@ -123,7 +123,7 @@ margin-bottom: 15px;
 .pedagogie{
     display: flex;
     gap: 40px;
-    margin: 200px;
+    margin: 100px;
     
 }
 .active{
@@ -150,6 +150,7 @@ margin-bottom: 15px;
 
  h3{
     color: #ce0033;
+    padding-left: 300px;
 }
 .image-pliers img{
     border-radius: 15px;
@@ -159,8 +160,31 @@ margin-bottom: 15px;
 .pliers{ 
     display: flex;
     margin: auto;
+    padding-left: 300px;
 }
 .card-pliers img{
     width: 50px;
     height: 50px;
+}
+
+
+.point{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+}
+.card-point{
+    background-color: #ce0033;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    
+}
+.trait{
+    width: 20px;
+    height: 8px;
+    background-color: #ce0033;
+    border-radius: 50%;
 }
