@@ -68,7 +68,8 @@ font-size: 4rem;
 }
 /*fin de de la partie valeur*/
 /*la partie des chiffres*/
-.chiffres{
+.nos-chiffres{
+    padding: 4rem;
     text-align: center;
 color: #CE0033;
 font-size: 4rem;
@@ -88,7 +89,8 @@ font-size: 4rem;
 }
 /*fin de la partie des chiffres*/
 /* Debut de la partie de l'equipe */
-.Equipe{
+.notre-equipe{
+    padding: 2rem;
     text-align: center;
     color: #CE0033;
     font-size: 4rem;
@@ -102,6 +104,7 @@ font-size: 4rem;
 
 /* debut de la partie des blocks compliquer*/
 .cont-Equipe{
+    padding: 6rem 0rem;
     display: flex;
     justify-content: space-around;
 }
@@ -113,9 +116,11 @@ font-size: 4rem;
 }
 .nomcomplet{
     font-size: 2rem;
+    padding: 0.8rem;
 }
 .formateur-equipe{
     color: #CE0033;
+    padding: 0.5rem;
 }
 
 .photo-coach-equipe{
@@ -124,10 +129,28 @@ font-size: 4rem;
     border-radius: 50%;
    
 }
+.text-formateur-equipe{
+    font-family:  Arial, sans-serif;
+    padding: 0.8rem;
+}
 .icons-equipe-one{
     width: 2rem;
     height: 2rem;
 }
+/*  fin de la partie équipe */
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 * {

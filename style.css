@@ -255,6 +255,7 @@ font-size: 7rem;
   width: 35rem;
   height: 23rem;
   border: solid 0.1rem rgb(244, 242, 242);
+  padding: 1rem;
  
 }
 
@@ -292,6 +293,7 @@ position: relative;
   font-weight: bolder;
 }
 .role-formateur{
+    padding: 1rem 0;
   font-size: 1.4rem;
 }
 .mots-formateur{
