@@ -1,3 +1,173 @@
+.color-red{
+    color: #ce0033;
+}
+.logo img{
+width: 100px;
+height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white ;
+    align-items: center;
+    margin-right: 15px;
+}
+.header ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+.contact{
+    border-radius: 15px;
+    background-color: #ce0033;
+    color: white;
+    border: #ce0033;
+}
+/*image-main*/
+.main-image{
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/26.png);
+ height: 600px;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.font-size{
+    font-size: 30px;
+    opacity: 1;
+    color: white; 
+    
+}
+.presentation{
+padding: 200px;
+    color: white;
+    width: 400px;
+    color:rgba(255, 255, 255, 0,1)
+}
+.contact1{
+  
+    border-radius: 15px;
+    background-color: #ce0033;
+    color: white;
+    border: #ce0033;
+    height: 30px;
+   
+}
+/*section 2*/
+.cadreSimplon{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.simplon{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    padding-top: 50px;
+    align-items: center;
+    line-height: 2em;
+    background-color: whitesmoke;
+}
+.article{
+    width: 100%;
+    height: 600px;
+    padding-right: 10px;
+}
+.article img{
+    width: 400px;
+    height: 500px;
+    border-radius: 22px;
+}
+.nouvelles{
+    color: #ce0033;
+    font-size: 50px;
+    text-align: center;
+}
+/*section activités*/
+.cadreActivité{
+    padding-top: 200px;
+    width: 75%;
+    margin: auto;
+}
+.activité{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+  
+    margin: 0;
+    
+}
+
+.activité img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+.petit{
+    font-size: 10px;
+}
+.active{
+    color: #ce0033;
+    font-size: 30px;
+}
+.evenement{
+    padding-top: 200px;
+    padding-left: 400px;
+    margin-left: 50px;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    float: center;
+}
+.caseEvenement{
+    display: flex;
+    background-color: #ce0033;
+    align-items: center;
+    width: 400px;
+    color: white;
+    border-radius: 5px;
+    height: 100px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.Decouverte{
+    float: right;
+    margin-right: 500px;
+    color: #ce0033;
+    font-size: 20px;
+}
+.ajout{
+    color: #ce0033;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.venir{
+    color: #ce0033;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.next{
+    font-size: 10px;
+}
+.bande{
+    width: 20px;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    background-color: #ce0033;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 * {
