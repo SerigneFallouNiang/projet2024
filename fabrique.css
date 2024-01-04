@@ -662,7 +662,6 @@ label {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    border: 1px solid red;
 }
 
 .appel-a-candidature h2 {
