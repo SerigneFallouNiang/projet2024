@@ -1,6 +1,7 @@
 .color-red{
     color: #ce0033;
 }
+/*header*/
 .logo img{
 width: 100px;
 height: 50px;
@@ -40,9 +41,9 @@ height: 50px;
     background-color: rgba(0,0,0,0.2);
     position: absolute;
     top: 30%;
-    left: 35%;
-    
+    left: 35%;   
 }
+
 /*bande*/
 .bande{
     display: flex;
@@ -57,9 +58,9 @@ height: 50px;
     left: 25%;
 }
 .trait-vertical {
-    width: 3px; /* Largeur du trait */
-    height: 80%; /* Hauteur du trait, ajustez selon vos besoins */
-    background-color: white; /* Couleur du trait */
+    width: 3px; 
+    height: 80%; 
+    background-color: white; 
     margin: auto;
 }
 .card{
@@ -69,6 +70,7 @@ height: 50px;
 .card h1{
     font-size: 40px;
 }
+
 /*la petite histoire*/
 .separation{
 color: #ce0033;
@@ -104,6 +106,7 @@ margin-bottom: 15px;
     width: 400px;
     height: 400px;
 }
+/*bande 2017*/
 .cole{
     background-color: #ce0033;
     width: 100px;
@@ -116,6 +119,7 @@ margin-bottom: 15px;
     top: -320px;
     left: 65.4%
 }
+/*parie pedagogie*/
 .pedagogie{
     display: flex;
     gap: 40px;
@@ -130,22 +134,20 @@ margin-bottom: 15px;
 .active h3{
     color: #ce0033;
 }
-.card-pliers{
-   width: 300px;
-   background: white;
-   box-shadow: #ce0033 0px 5px;
-  
-   
-}
+/*partie pliers*/
 .cadre-pliers{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
     width: 800px;
     background-color: whitesmoke;
-    
-
 }
+.card-pliers{
+   width: 300px;
+   background: white;
+   box-shadow: #ce0033 0px 5px;  
+}
+
  h3{
     color: #ce0033;
 }
