@@ -15,7 +15,10 @@ height: 50px;
 .header ul li {
     list-style-type: none;
     display: inline-block;
-
+    margin-right: 15px;
+}
+.header{
+    text-decoration: none;
 }
 .contact{
     border-radius: 15px;
