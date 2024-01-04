@@ -657,11 +657,12 @@ label {
 
 .appel-a-candidature {
     width: 80%;
-    height: 60vh;
+    height: 50vh;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 60px;
+    border: 1px solid red;
 }
 
 .appel-a-candidature h2 {
@@ -721,4 +722,41 @@ label {
 
 .cohorte-conteneur .box6 h3 {
     background: green;
+}
+
+/* nos-partenaires */
+
+.nos-partenaires {
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.nos-partenaires h2 {
+    color: #ce0033;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nos-partenaires .logos-partenaires {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.nos-partenaires .logos-partenaires .logo-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nos-partenaires .logos-partenaires img {
+    width: 15%;
+    height: 150px;
+    object-fit: contain;
 }
