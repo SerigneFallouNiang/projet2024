@@ -162,7 +162,7 @@ margin-bottom: 15px;
    box-shadow: #ce0033 0px 5px;  
 }
 
- h3{
+h3{
     color: #ce0033;
     padding-left: 300px;
 }
@@ -379,7 +379,7 @@ font-size: 4rem;
     width: 40%;
 }
 
-.recrutement .recrutement-top-txt h3 {
+.recrutement .recrutement-top-txt h4 {
     font-size: 1.5rem;
     color: #ce0033;
     margin: 20px 0px;
@@ -411,7 +411,7 @@ font-size: 4rem;
     
 }
 
-.offre-en-cours h3 {
+.offre-en-cours h4 {
     color: #ce0033;
     font-size: 1.9rem;
     padding-bottom: .6rem;
@@ -627,7 +627,7 @@ label {
     object-fit: cover;
 }
 
-.temoignage .temoignage-box H3 {
+.temoignage .temoignage-box h4 {
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -811,7 +811,7 @@ label {
     color: #c4302b ;
 }
 
-.footer-top-element h3 {
+.footer-top-element h4 {
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -879,7 +879,7 @@ label {
     color: #fff;
 }
 
-.footer .footer-bottom h3 {
+.footer .footer-bottom h4 {
     font-size: 1.6rem;
 }
 
