@@ -17,6 +17,9 @@ height: 50px;
     display: inline-block;
     margin-right: 30px;
 }
+.header a {
+    text-decoration: none;
+}
 .contact{
     border-radius: 15px;
     background-color: #ce0033;
