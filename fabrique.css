@@ -363,7 +363,7 @@ body {
 }
 
 .recrutement .recrutement-top {
-    width: 90%;
+    width: 80%;
     height: 35vh;
     margin: auto;
     display: flex;
@@ -386,7 +386,7 @@ body {
 }
 
 .recrutement .recrutement-top-txt p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2.2rem;
 }
 
@@ -587,9 +587,13 @@ label {
 
 .temoignage {
     width: 80%;
-    height: 100vh;
+    height: 80vh;
     margin: 0 auto;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
 }
 
 .temoignage h2 {
@@ -601,15 +605,15 @@ label {
 
 .temoignages-conteneur {
     width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border: 1px solid blue;
+    gap: 50px;
 }
 
 .temoignage .temoignage-box {
-    width: 45%;
-    border: 1px solid red;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -624,17 +628,27 @@ label {
 }
 
 .temoignage .temoignage-box H3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .temoignage .temoignage-box i {
     color: #ce0033;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    
 }
 
 .temoignage .temoignage-box p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    position: relative;
+    margin-top: 50px;
+}
+
+.temoignage .temoignage-box p span {
     opacity: 0.6;
-    line-height: 1.8rem;
 }
