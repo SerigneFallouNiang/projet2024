@@ -99,7 +99,7 @@ body {
   }
   
   .sectionheader2 {
-    width: 100vw;
+    width: 100%;
     height: 65vh;
     background-image: url("img/26.png");
     background-position: center;
@@ -1032,3 +1032,107 @@ form .bouton {
 .footer .footer-bottom p span {
     font-weight: bold;
 }
+
+
+@media only screen and (max-width: 1500px) {
+    body {
+      font-size: 14px;
+      
+    }
+    header ul {
+        margin-left: -85px;
+    }
+
+    .div1header {
+        margin-left: -100px;
+    }
+    .fa-caret-down {
+        margin-right: -15px;
+    }
+  
+    header {
+      padding: 10px;
+      
+    }
+    
+  }
+  @media only screen and (max-width: 1466px) {
+    .fa-caret-down, .para1div1header, .centrer1  {
+        visibility: hidden;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1130px) {
+    .sectionheader1 {
+        flex-direction: column;
+    }
+    .fa-magnifying-glass {
+        visibility: hidden;
+    } 
+  }
+  @media only screen and (max-width: 845px) {
+    .div1header {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 770px) {
+    .sectionheader1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+    .logosimplon{
+        width: 30%;
+    }
+    .sectionheader1 ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .para1sectionheader2, .para2sectionheader2, .para3sectionheader2 {
+        position: relative;
+        left: 90px;
+    }
+    .para2sectionheader2 {
+        overflow: hidden;
+    }
+    
+  }
+
+  @media only screen and (max-width: 570px) {
+    .sectionheader1 {
+        grid-template-columns: auto;
+        margin-bottom: 50px;
+    }
+    .logosimplon{
+        width: 30%;
+        text-align: center;
+        position: relative;
+        left: 200px;
+    }
+    .sectionheader1 ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .para1sectionheader2, .para2sectionheader2, .para3sectionheader2{
+        margin-left: -80px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+
+    .logosimplon{
+        width: 30%;
+        position: relative;
+        left: 100px;
+    }
+  
+    .header {
+      padding: 10px;
+    }
+  }
