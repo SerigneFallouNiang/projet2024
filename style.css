@@ -446,6 +446,7 @@ iconify-icon {
 .apprenats {
   width: 90%;
   margin: 0 auto;
+  margin-top: -170px;
 }
 .cont-apprenants {
   margin: 1rem;
@@ -699,7 +700,7 @@ h2 {
 .témoignages {
   width: 90%;
   margin: 0 auto;
-  padding: 50px;
+  padding-top: 150px;
   height: 90vh;
   position: relative;
   margin-bottom: 50px;
@@ -1028,6 +1029,9 @@ form .bouton {
   .decouverte {
     right: 500px;
   }
+ 
+
+
 }
 @media only screen and (max-width: 1466px) {
   .fa-caret-down,
@@ -1043,6 +1047,26 @@ form .bouton {
   }
   .cont-Decouverts {
     font-size: 1rem;
+  }
+  .cont-formateur, .cont-histoire, .cont-apprenants {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    gap: 105px;
+  }
+  .alumni {
+    flex-direction: column;
+  }
+  #main .alumni-gauche p {
+    margin-top: -100px;
+    padding: 2rem;
+    font-size: 1.4;
+  }
+  #main .alumni-droite iframe {
+    height: 100%;
+  }
+  .btn2-block-histoire1, .btn2-block-apprenants2 {
+    visibility: hidden;
   }
   
 }
@@ -1070,8 +1094,6 @@ form .bouton {
   .venir {
     font-size: 2.5rem;
   }
-  
-  
   .caseEvenement {
     padding: 10px;
     display: grid;
@@ -1082,6 +1104,18 @@ form .bouton {
   }
   .decouverte {
     right: 800px;
+  }
+  .cont-formateur, .cont-histoire, .cont-apprenants {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    gap: 115px;
+  }
+  #main .alumni-droite iframe {
+    height: 100%;
+  }
+  #main .alumni-droite p {
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 845px) {
@@ -1163,17 +1197,56 @@ form .bouton {
   .decouverte {
     right: 1000px;
   }
+  .formateur1 img {
+    display: none;
+  }
+  .text-apprenant{
+    font-size: 1.5rem;
+    padding: 0;
+    position: relative;
+    right: 140px;
+  }
+  .text-histoire2 {
+    font-size: 1.5rem;
+    padding: 0;
+    position: relative;
+    right: 90px;
+  }
+  .témoignages {
+    padding-top: -200px;
+  }
+  .témoignages h2 {
+    font-size: 2rem;
+    margin-top: 150px;
+    margin-bottom: -100px;
+  }
+  h2, h1 {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 570px) {
   .sectionheader1 {
     grid-template-columns: auto;
     margin-bottom: 60px;
   }
+  .nouvelles {
+    font-size: 2rem;
+    margin-bottom: -100px;
+  }
+  .active h2 {
+    font-size:1rem;
+    font-weight: 700;
+    margin-top: 70px;
+  }
   .logosimplon {
     width: 30%;
     text-align: center;
     position: relative;
     left: 150px;
+  }
+  .venir {
+    font-size: 1.5rem;
+    margin-top: 70px;
   }
   .sectionheader1 ul {
     display: grid;
@@ -1190,6 +1263,18 @@ form .bouton {
     gap: 20px;
     width: 900px;
   }
+  .témoignages h2 {
+    font-size: 2rem;
+    margin-top: 140px;
+    margin-bottom: -100px;
+  }
+  .text-apprenants2, .text-histoire1 {
+    font-size: 1rem;
+  }
+  #main .alumni-droite p {
+    font-size: 1rem;
+  }
+  
 }
 
 @media only screen and (max-width: 480px) {
@@ -1223,5 +1308,21 @@ form .bouton {
   .evenement {
     
     width: 700px;
+  }
+  .témoignages h2 {
+    font-size: 2rem;
+    margin-top: 300px;
+    margin-bottom: -100px;
+  }
+  #main .alumni-gauche p {
+    font-size: 1.2rem;
+  }
+  .text-apprenant {
+    right: 200px;
+    font-size: 1rem;
+  }
+  .text-histoire2 {
+    right: 115px;
+    font-size: 1.1rem;
   }
 }
