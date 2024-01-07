@@ -701,35 +701,37 @@ h2 {
   width: 90%;
   margin: 0 auto;
   padding-top: 150px;
-  height: 90vh;
+  height: 100%;
   position: relative;
   margin-bottom: 50px;
 }
 
 .témoignages .carte-temoignages {
-  display: flex;
-  justify-content: space-between;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
   margin-top: 150px;
 }
 
 .témoignages .carte-temoignages .carte {
-  width: 490px;
-  height: 520px;
+  width: 90%;
+  height: 600px;
   box-shadow: 0px 0px 5px lightgray;
-  padding: 2.5rem;
+  padding: 1rem;
   border-radius: 20px;
   background: #fff;
 }
 
 .carte-temoignages .carte i {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #ce0033;
   opacity: 0.3;
   padding-bottom: 5px;
 }
 
 .carte-temoignages .carte p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 2rem;
   opacity: 0.9;
   margin-bottom: 20px;
@@ -883,7 +885,8 @@ form .bouton {
 .footer .footer-top {
   background: #000;
   display: flex;
-  padding: 20px;
+  padding: 10px;
+  gap: 15px;
   color: #fff;
   justify-content: space-around;
 }
@@ -1068,6 +1071,9 @@ form .bouton {
   .btn2-block-histoire1, .btn2-block-apprenants2 {
     visibility: hidden;
   }
+  .témoignages .carte-temoignages {
+    grid-template-columns: 1fr 1fr;
+  }
   
 }
 
@@ -1117,6 +1123,25 @@ form .bouton {
   #main .alumni-droite p {
     font-size: 1.3rem;
   }
+  .témoignages .carte-temoignages {
+    grid-template-columns: 1fr;
+  }
+  .témoignages .carte-temoignages .carte {
+    width: 50%;
+    padding: 2.5rem;
+  }
+  .témoignages h2 {
+    font-size: 3rem;
+  }
+  footer .footer-top .socialmedia, .contact  .contact-info {
+    display: none;
+  }
+  .contact form .inputs {
+    gap: 25px;
+    width: 180%;
+  }
+ 
+  
 }
 @media only screen and (max-width: 845px) {
   .div1header {
@@ -1141,6 +1166,26 @@ form .bouton {
     margin: 0;
     padding: 0;
     font-size: 10px;
+  }
+  
+  .témoignages .carte-temoignages .carte {
+    width: 60%;
+    padding: 2.5rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .footer .footer-top, .footer .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-newsletter {
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+  .footer-newsletter .input2 {
+    border-radius: 0;
   }
 }
 
@@ -1179,6 +1224,7 @@ form .bouton {
   .activité {
     grid-template-columns: repeat(2, 1fr);
   }
+  
 }
 @media only screen and (max-width: 700px){
   .evenement {
@@ -1226,6 +1272,11 @@ form .bouton {
   .caseEvenement {
     width: 350px;
   }
+  .témoignages .carte-temoignages .carte {
+    width: 80%;
+    padding: 1rem;
+  }
+  
 }
 @media only screen and (max-width: 570px) {
   .sectionheader1 {
@@ -1278,6 +1329,17 @@ form .bouton {
     font-size: 1rem;
   }
   
+  .carte-info {
+    flex-direction: column; 
+  }
+  .carte-info img {
+    width: 90;
+    height: 90;
+    margin: 0 auto;
+  }
+  .carte .carte-info .carte-txt h3 {
+    font-size: 2rem;
+  }
   
 }
 
@@ -1334,5 +1396,45 @@ form .bouton {
   }
   .decouverte {
     right: 1200px;
+  }
+  .témoignages h2 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+  .carte-info img {
+    display: none;
+  }
+  .carte-txt {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .carte-temoignages .carte p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .témoignages h2 {
+    margin-top: 300px;
+    font-size: 1.5rem;
+  }
+  .para1sectionheader2 {
+    font-size: 1.4rem;
+  }
+  .caseEvenement {
+    width: 250px;
+  }
+  .formateur1 {
+    position: relative;
+    right: 55px;
+    width: 25rem;
+  }
+  .text-histoire2 {
+    position: relative;
+    right: 149px;
+    font-size: 1rem;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
