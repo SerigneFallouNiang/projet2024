@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
 
+
 body {
   background-color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
-  overflow-x: hidden;
+ overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -1084,7 +1085,10 @@ form .bouton {
   .fa-magnifying-glass {
     visibility: hidden;
   }
-  .article {
+  .article {.témoignages h2 {
+    margin-top: 300px;
+    font-size: 1.5rem;
+  }
     font-size: 10px;
   }
   .article p {
@@ -1131,14 +1135,15 @@ form .bouton {
     padding: 2.5rem;
   }
   .témoignages h2 {
-    font-size: 3rem;
+    margin-top: 200px;
+    font-size: 1.5rem;
   }
   footer .footer-top .socialmedia, .contact  .contact-info {
     display: none;
   }
   .contact form .inputs {
     gap: 25px;
-    width: 180%;
+    width: 160%;
   }
  
   
@@ -1177,6 +1182,9 @@ form .bouton {
   .footer .footer-top, .footer .footer-bottom {
     flex-direction: column;
     text-align: center;
+  }
+  footer .footer-top .socialmedia {
+    display: table-row;
   }
   .footer-newsletter {
     flex-direction: column;
@@ -1417,7 +1425,7 @@ form .bouton {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 397px) {
   .témoignages h2 {
     margin-top: 300px;
     font-size: 1.5rem;
@@ -1438,7 +1446,5 @@ form .bouton {
     right: 149px;
     font-size: 1rem;
   }
-  body {
-    overflow-x: hidden;
-  }
+  
 }
